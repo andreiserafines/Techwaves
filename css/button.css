@@ -1,0 +1,62 @@
+/* Buttons */
+button {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Header */
+.nav-btn button{
+    border: none;
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+}
+
+/* Sidenav */
+.menu-btn button{
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+}
+
+#toggleIcon {
+    transition: transform 0.3s ease, color 0.3s ease;
+    font-size: 30px;
+    color: black;
+}
+
+.menu-btn.open #toggleIcon {
+    transform: rotate(90deg);
+    font-size: 30px;
+    color: rgb(0, 0, 0); /* Optional: change color when transitioning to X */
+}
+
+.side-nav-content button {
+    border: none;
+    width: 100%;
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+}
+
+/* Hero Section */
+.lg-btn button{
+    padding: 1em 24px;
+    margin: 2em 0;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.slg-btn button {
+    padding: 1em 24px;
+    margin: 2em 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+}

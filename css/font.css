@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(98, 163, 98);
+    margin-bottom: 15px;
+}
+
+/* Header */
+.nav-items ul {
+    display: inline-flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.nav-items li {
+    padding: 2px 4px;
+}
+
+.navbar-list .nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #23232c;
+    transition: color 0.3s;
+}
+
+.navbar-list .nav-links a:hover {
+    color: #289db9;
+}
+
+.navbar-list .nav-links a.active {
+    color: #289db9;
+}
+
+
+/* Hero Section */
+.hero-tagline-paragraph {
+    margin-bottom: 1em;
+    font-size: 19px;
+    font-weight: 400;
+}
